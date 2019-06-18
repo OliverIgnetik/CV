@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name='keywords' content='HTML,CSS,XML,JavaScript'>
+    <meta name ='author' content='Oliver Ignetik'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Oliver's Personal Website</title>
+    <!--Style tags-->
+    <style>
+    /*----------body-------------*/ 
+    #profile-pic{
+      height: 160px;
+      width: 130px;
+      border-radius: 50%;
+    };
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    /*----------intro-------------*/
+    
+    .Introduction td{
+      padding: 15px 30px;
+    }
+    
+    .Bio-information{
+      margin-top: 20px;
+      line-height: 30px;
+    }
+
+
+    
+    /*----------intro-------------*/
+
+    /*----------Current-Projects -------------*/
+    .Current-Projects td{
+      padding: 15px;
+    }
+    .Current-Projects th{
+      padding: 15px;
+    }
+
+    .Current-Projects ul{
+      list-style: none;
+    }
+
+
+
+
+
+    /*----------Current-Projects-------------*/ 
+    /*----------Portfolio-------------*/
+    li {
+      margin:10px 0;
+    } 
+    /*----------Portfolio-------------*/ 
+    .Skills td{
+      padding:15px;
+    }
+      
+    </style>
+    <!--Style tags-->
+  </head>
+  <!--Body-->
+  <body>
+    <!-------------------->
+      <table class = 'Introduction'>
+      <tr>
+      <td>
+        <img src="images/ProfilePic.jpg" alt="Profile picture" id='profile-pic'>
+      </td>
+      <td><h1>Oliver Ignetik</h1>
+      <div class='Bio-information'><p>
+      I am commited to become strong enough to overcome my sacroilliac joint injury. I will do whatever it takes to get better.
+      I have struggled for much of life in constant pain but have learnt through conquering
+      this challenge, that determination means everything!
+      </p></div></td>
+      </tr>
+      </table>
+      <hr> 
+      <div class='Portfolio'><h3>Portfolio</h3>
+      <ul>
+      <li><a target='_blank' href='https://www.coursera.org/account/accomplishments/specialization/U6H7T64JYYLH'>IBM Data Science Professional Certificate</a></li>
+      <li>DataCamp Python Data Engineer</li>
+      <li><a target="_blank" href='bird_man.html'>Full Stack Web Development</a></li>
+      <li>Unity Game Engine Proefficient </li>
+      <li>Flutter Developer </li>
+      </ul></div>
+      <hr>
+      <div class='My-hobbies'>
+      <h3>My hobbies</h3>
+      <ul>
+      <li>Exercise</li>
+      <li><a target="_blank" href="https://www.instagram.com/ignetik/">Music</a></li>
+      <li>Sauna</li>
+      </ul></div>
+      <hr>
+      <div class='Contact'>
+        <h3>Contact Me</h3>
+        <ul>
+        <li>+61 79 132 542</li>
+        <li><a href="mailto:olli@ozemail.com.au">olli@ozemail.com.au</a></li>
+        <li>Canberra, Australia</li>
+      </ul>
+      </div>
+      <hr>
+      <div class='Current-Projects'>
+        <table>
+          <thead>
+              <tr>
+                  <th>Date</th>
+                  <th>Projects</th>
+              </tr>
+          </thead>
+            <tr>
+              <td>2019 May-Current</td>
+              <td>
+                  
+                    <p>Unity Game Development</p>
+                    <p>Full Stack Web Development</p>
+                  
+              </td>
+            </tr>
+            <tr>
+                <td>2019 June-Current</td>
+                <td>
+                DataCamp Python Data Science Engineer
+                </td>
+            </tr>
+            <tr>
+                <td>2019 March-May</td>
+                <td>
+                    IBM DataScience and Machine Learning
+                  </td>
+            </tr>
+        </table>
+      </div>
+      <hr>
+      <h3>Skills</h3>
+      <table class='Skills'>
+          <tr>
+          <td>Weightlifting</td>
+          <td>⭐⭐⭐</td>
+          </tr>
+        <tr>
+          <td>Flutter Development
+          </td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Front-End Web Development
+            </td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Back-End Web Development
+            </td>
+            <td>⭐</td>
+        </tr>
+      </table>
+      <hr>
+      
+      <form class='contact-info' action='mailto:olli@ozemail.com.au' method='post' enctype="text/plain">
+        <p><label for='name'>Your Name:</label>
+        <input type='text' name='name' value=''></p>
+        <p><label for='email'>email:</label>
+        <input type='email' name='email' value=''></p>
+        <label>Your message:</label><br>
+        <textarea name='message' rows='10' cols='30'></textarea>
+        <br>
+        <input type="submit" name=''>
+        
+      </form>
+      <footer>
+        <p><strong>Determination</strong> means everything!</p>
+      </footer>
+    <!-------------------->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  <!--Body-->
+</html>
